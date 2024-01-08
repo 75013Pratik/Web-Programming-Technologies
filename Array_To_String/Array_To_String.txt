@@ -1,0 +1,12 @@
+<script>
+var ar=new Array(5,3,2)
+ans=ar.join("-");
+document.write(ans);
+document.write(typeof(ans));
+</script>
+<script>
+var ar=new Array(5,3,2)
+ans=ar.join();
+document.write(ans); //5,3,2
+document.write(typeof(ans));
+</script>
